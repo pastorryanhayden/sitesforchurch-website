@@ -1,0 +1,81 @@
+nav.main-nav {
+    display: flex;
+    flex-direction: column;
+    background: $primary-color-dark;
+    color: $white;
+    justify-content: center;
+     @include breakpoint(large) {
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    height: 65px;
+    width:100%;
+}
+}
+
+nav img {
+    width: 261px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+     @include breakpoint(large) {
+        margin: 0 0 0 30px;
+     }
+}
+
+nav ul.main-menu {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-left: 0;
+    margin-left: 0;
+    margin-bottom: 10px;
+    min-width:235px;
+    border-bottom: 1px solid $off-white;
+    @include breakpoint(large) {
+       margin-bottom: 0; 
+       border-bottom: none;
+       flex-grow: 1;
+       padding-bottom: 0;
+       min-width: 360px;
+       justify-content: flex-end;
+
+       li {
+        width: 130px;
+       }
+    }
+
+    li a {
+        color: $white;
+        text-transform: uppercase;
+    }
+}
+nav ul.action-menu {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0 0 10px 0;
+    align-items: center;
+    min-width: 200px;
+    @include breakpoint(large) {
+    border-left: 1px solid $off-white;
+    margin: 0;
+    }
+
+    li {margin-bottom: 0;}
+    
+    li a.button.success {
+            margin-bottom: 0;
+        }
+    li a {
+        color: $off-white;
+        text-transform: uppercase;
+
+       
+    }
+}
