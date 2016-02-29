@@ -1,0 +1,715 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Single",
+				"SinglePub"
+			],
+			[
+				"publ",
+				"publication"
+			],
+			[
+				"Documents",
+				"Documents"
+			],
+			[
+				"min-",
+				"min-width"
+			],
+			[
+				"medi",
+				"mediumGrayColor"
+			],
+			[
+				"n",
+				"nth-child"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"In",
+				"InfoHeader__info__ServiceTimes"
+			],
+			[
+				"bor",
+				"border-right"
+			],
+			[
+				"Inf",
+				"InfoHeader__info"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"mo",
+				"mobileScreen"
+			],
+			[
+				"flex",
+				"flex-shrink"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"font",
+				"fontawesome"
+			],
+			[
+				"Mo",
+				"MobileNavigation__sidebar"
+			],
+			[
+				"bo",
+				"border-bottom"
+			],
+			[
+				"mob",
+				"MobileNavigation__sidebar"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"MobileNavigation__",
+				"MobileNavigation__sidebar"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"Mobile",
+				"MobileNavigation__sidebar"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"nav",
+				"nav-trigger"
+			],
+			[
+				"med",
+				"mediumGrayColor"
+			],
+			[
+				"baseB",
+				"baseBorderColor"
+			],
+			[
+				"dark",
+				"darkGrayColor"
+			],
+			[
+				"serif",
+				"serifFont"
+			],
+			[
+				"san",
+				"sans-serifFont"
+			],
+			[
+				"deskt",
+				"desktopWidth"
+			],
+			[
+				"sermon",
+				"sermonmanager"
+			],
+			[
+				"sitesfor",
+				"sitesforchurch"
+			],
+			[
+				"z-",
+				"z-index"
+			],
+			[
+				"pa",
+				"padding-right"
+			],
+			[
+				"dar",
+				"dark-gray"
+			],
+			[
+				"ba",
+				"background-size"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"list-st",
+				"list-style-type"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"p",
+				"padding-bottom"
+			],
+			[
+				"Mar",
+				"margin-left"
+			],
+			[
+				"te",
+				"text-transform"
+			],
+			[
+				"bord",
+				"border-top"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"b",
+				"block"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"backg",
+				"background-attachment"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "pack",
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"todore",
+				"TodoReview: Project and Open Files"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"task",
+				"Tasks: New document"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"package ",
+				"Package Control: Install Package"
+			],
+			[
+				"package install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 431.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/ryanhayden/github/sitesforchurch/src"
+	],
+	"file_history":
+	[
+		"/Users/ryanhayden/github/sitesforchurch/src/layouts/default.html",
+		"/Users/ryanhayden/github/sitesforchurch/src/assets/scss/components/components-dir.scss",
+		"/Users/ryanhayden/github/sitesforchurch/src/assets/scss/components/_nav.scss",
+		"/Users/ryanhayden/github/sitesforchurch/src/assets/scss/app.scss",
+		"/Volumes/panel.sitesforchurch/blessedhopemtvernon_org/plugins/sitesforchurch/welcome/controllers/welcome/index.htm",
+		"/Volumes/panel.sitesforchurch/blessedhopemtvernon_org/plugins/sitesforchurch/sermonmanager/models/sermon/fields.yaml",
+		"/Volumes/panel.sitesforchurch/blessedhopemtvernon_org/themes/blessedhopetheme/pages/sermonlist2.htm",
+		"/Volumes/panel.sitesforchurch/blessedhopemtvernon_org/plugins/sitesforchurch/sermonmanager/components/sermonlist/default.htm",
+		"/Volumes/panel.sitesforchurch/blessedhopemtvernon_org/themes/blessedhopetheme/assets/css/style.css",
+		"/Volumes/panel.sitesforchurch/blessedhopemtvernon_org/themes/blessedhopetheme/partials/header.htm",
+		"/Users/ryanhayden/bucket/blessedhope/application/themes/blessedhope/sermon.php",
+		"/Volumes/panel.sitesforchurch/blessedhopemtvernon_org/themes/blessedhopetheme/layouts/sermons.htm",
+		"/Users/ryanhayden/github/MinistryManager/controllers/Ministries.php",
+		"/Users/ryanhayden/github/MinistryManager/models/Ministry.php",
+		"/Users/ryanhayden/github/MinistryManager/updates/create_ministries_table.php",
+		"/Users/ryanhayden/github/MinistryManager/Plugin.php",
+		"/Users/ryanhayden/github/sermonmanager/components/Series.php",
+		"/Users/ryanhayden/github/sermonmanager/components/Sermon.php",
+		"/Users/ryanhayden/github/sermonmanager/components/SermonList.php",
+		"/Users/ryanhayden/github/sermonmanager/controllers/Series.php",
+		"/Users/ryanhayden/github/sermonmanager/controllers/Sermons.php",
+		"/Users/ryanhayden/github/sermonmanager/controllers/Speakers.php",
+		"/Users/ryanhayden/github/sermonmanager/models/Series.php",
+		"/Users/ryanhayden/github/sermonmanager/models/Sermon.php",
+		"/Users/ryanhayden/github/sermonmanager/models/Speaker.php",
+		"/Users/ryanhayden/github/sermonmanager/updates/create_series_table.php",
+		"/Users/ryanhayden/github/sermonmanager/updates/create_sermons_table.php",
+		"/Users/ryanhayden/github/sermonmanager/updates/create_speakers_table.php",
+		"/Users/ryanhayden/github/sermonmanager/Plugin.php",
+		"/Users/ryanhayden/github/sermonmanager/contributors.txt",
+		"/Users/ryanhayden/Library/Caches/Cleanup At Startup/Transmit/22F90A6C-7F08-4B6C-9708-873EBFEB3828/php.ini",
+		"/Users/ryanhayden/Library/Caches/Cleanup At Startup/Transmit/3647134B-629A-4043-930B-1A76BB7EEBFC/.htaccess",
+		"/Users/ryanhayden/Library/Caches/Cleanup At Startup/Transmit/9EA08BE2-E0D2-49A0-ACF9-A05DE6E6716B/cms.php",
+		"/Users/ryanhayden/Library/Caches/Cleanup At Startup/Transmit/47A13781-4E5D-4A64-AAD8-DEFB0B355A8D/filesystems.php",
+		"/Users/ryanhayden/Library/Caches/Cleanup At Startup/Transmit/FCB39CA5-E51A-409B-B81E-6CC228E00187/php.ini",
+		"/Users/ryanhayden/Library/Caches/Cleanup At Startup/Transmit/698CDF7D-3D75-459F-8A17-1F35C341CD33/_list_toolbar.htm",
+		"/Users/ryanhayden/Library/Caches/Cleanup At Startup/Transmit/10382F21-F89C-4092-BE10-A4207FB82FB2/home.htm",
+		"/Users/ryanhayden/bucket/blessedhope/application/config/database.php",
+		"/Users/ryanhayden/Library/Caches/Cleanup At Startup/Transmit/7B0049E4-A105-4881-A782-00074D9BFF33/database.php",
+		"/Users/ryanhayden/Library/Caches/Cleanup At Startup/Transmit/69E3AE68-0F37-4CF9-8F96-ECABF34B51F0/footer.htm",
+		"/Users/ryanhayden/Library/Caches/Cleanup At Startup/Transmit/7C7619F5-A0D0-436E-8311-1A05CCC0D477/FilesystemManager.php",
+		"/Users/ryanhayden/Library/Caches/Cleanup At Startup/Transmit/6F6BF08C-0AC9-478E-9E89-CE5E7B459B24/filesystems.php",
+		"/Users/ryanhayden/Library/Caches/Cleanup At Startup/Transmit/09725937-4B87-4381-A616-9880542ABCC8/filesystems.php",
+		"/Users/ryanhayden/Dropbox/development/sitesforchurch aws key",
+		"/private/etc/hosts",
+		"/Users/ryanhayden/Library/Caches/Cleanup At Startup/Transmit/C2E8C507-545E-41B2-A288-AB6F56FFDA56/index.html",
+		"/Volumes/panel.sitesforchurch/sitesforchurch_com/plugins/sitesforchurch/ministries/models/Ministry.php",
+		"/Volumes/panel.sitesforchurch/sitesforchurch_com/plugins/sitesforchurch/ministries/models/ministry/fields.yaml",
+		"/Volumes/panel.sitesforchurch/sitesforchurch_com/themes/blessedhopetheme/pages/minstry-page.htm",
+		"/Volumes/panel.sitesforchurch/sitesforchurch_com/plugins/sitesforchurch/sermonmanager/components/sermonlist/default.htm",
+		"/Volumes/panel.sitesforchurch/sitesforchurch_com/plugins/sitesforchurch/sermonmanager/components/sermon/default.htm",
+		"/var/folders/h6/t4lvmxvj0t73py2c7mn1rs880000gn/T/sublime-sftp-browse-1455164302/panel.sitesforchurch.com/var/sentora/hostdata/zadmin/public_html/sitesforchurch_com/plugins/rainlab/builder/components/recordlist/default.htm",
+		"/Users/ryanhayden/Library/Application Support/Sublime Text 3/Packages/User/sftp_servers/panel.sitesforchurch.com",
+		"/Users/ryanhayden/bucket/october/themes/blessedhopetheme/layouts/about.htm",
+		"/Users/ryanhayden/bucket/october/plugins/rainlab/pages/components/staticmenu/default.htm",
+		"/Users/ryanhayden/bucket/october/plugins/rainlab/pages/components/staticbreadcrumbs/default.htm",
+		"/Users/ryanhayden/bucket/october/themes/blessedhopetheme/index.html",
+		"/Users/ryanhayden/bucket/october/themes/blessedhopetheme/partials/footer.htm",
+		"/Users/ryanhayden/bucket/october/themes/blessedhopetheme/assets/css/style.css",
+		"/Users/ryanhayden/bucket/october/themes/blessedhopetheme/assets/js/init.js",
+		"/Users/ryanhayden/bucket/october/themes/blessedhopetheme/partials/header.htm",
+		"/Users/ryanhayden/bucket/october/themes/blessedhopetheme/assets/plugins/flexslider/js/jquery.flexslider.js",
+		"/Users/ryanhayden/bucket/october/themes/blessedhopetheme/layouts/home.htm",
+		"/Users/ryanhayden/bucket/october/themes/blessedhopetheme/layouts/blog_post.htm",
+		"/Users/ryanhayden/bucket/october/themes/blessedhopetheme/layouts/default.htm",
+		"/Users/ryanhayden/bucket/october/themes/blessedhopetheme/pages/basic.htm",
+		"/Users/ryanhayden/bucket/october/themes/blessedhopetheme/partials/header.php",
+		"/Users/ryanhayden/Library/Application Support/Sublime Text 3/Packages/TodoReview/TodoReview.sublime-settings",
+		"/Users/ryanhayden/bucket/october/themes/blessedhopetheme/layouts/sermon.htm",
+		"/Users/ryanhayden/bucket/october/themes/blessedhopetheme/content/sidebar.htm",
+		"/Users/ryanhayden/bucket/october/themes/blessedhopetheme/sermonstyles.css",
+		"/Users/ryanhayden/Library/Application Support/Sublime Text 3/Packages/User/TodoReview.sublime-settings",
+		"/Users/ryanhayden/bucket/october/themes/blessedhopetheme/partials/blogpostphp.php",
+		"/Users/ryanhayden/bucket/october/themes/blessedhopetheme/theme.yaml",
+		"/Users/ryanhayden/bucket/blessedhope/application/config/app.php",
+		"/Users/ryanhayden/bucket/blessedhope/concrete/config/database.php",
+		"/Users/ryanhayden/bucket/community/.gitignore",
+		"/Users/ryanhayden/.zshrc",
+		"/Users/ryanhayden/bucket/sitesforchurch/.git/config",
+		"/Users/ryanhayden/bucket/community/.git/config",
+		"/Users/ryanhayden/github/foundation/.gitignore",
+		"/Users/ryanhayden/Dropbox/foundation/src/partials/serieslist.html",
+		"/Users/ryanhayden/Dropbox/foundation/src/assets/scss/pages/_sermons.scss",
+		"/Users/ryanhayden/Dropbox/foundation/src/assets/scss/pages/pages-dir.scss",
+		"/Users/ryanhayden/Dropbox/foundation/src/assets/scss/pages/_bloglist.scss",
+		"/Users/ryanhayden/Downloads/product-page.html",
+		"/Users/ryanhayden/Dropbox/foundation/src/pages/welcome.html",
+		"/Users/ryanhayden/Dropbox/foundation/src/assets/js/app.js",
+		"/Users/ryanhayden/Dropbox/foundation/src/assets/scss/pages/_about.scss",
+		"/Users/ryanhayden/Dropbox/foundation/src/assets/scss/pages/_welcome.scss",
+		"/Users/ryanhayden/Dropbox/foundation/src/pages/about.html",
+		"/Users/ryanhayden/Dropbox/foundation/src/assets/scss/elements/elements-dir.scss",
+		"/Users/ryanhayden/Dropbox/foundation/src/assets/scss/elements/_foundation-icons.scss",
+		"/Users/ryanhayden/Dropbox/foundation/src/partials/head.html",
+		"/Users/ryanhayden/Dropbox/foundation/src/partials/navigation.html",
+		"/Users/ryanhayden/Dropbox/foundation/src/pages/sermons.html",
+		"/Users/ryanhayden/Dropbox/foundation/src/pages/blog-list.html",
+		"/Users/ryanhayden/Dropbox/foundation/src/pages/blog.html",
+		"/Users/ryanhayden/Dropbox/foundation/src/pages/ministries.html",
+		"/Users/ryanhayden/Dropbox/foundation/src/layouts/default.html",
+		"/Users/ryanhayden/Dropbox/foundation/src/pages/index.html",
+		"/Users/ryanhayden/Dropbox/foundation/src/pages/home.html",
+		"/Users/ryanhayden/Dropbox/foundation/src/partials/footer.html",
+		"/Users/ryanhayden/Dropbox/foundation/src/assets/scss/_settings.scss",
+		"/Users/ryanhayden/Dropbox/churchtheme/scss/elements/_footer.scss",
+		"/Users/ryanhayden/Dropbox/churchtheme/home.html",
+		"/Users/ryanhayden/Dropbox/churchtheme/index.html",
+		"/Users/ryanhayden/Dropbox/churchtheme/scss/app.scss",
+		"/Users/ryanhayden/Dropbox/churchtheme/scss/elements/_typography.scss",
+		"/Users/ryanhayden/Dropbox/churchtheme/scss/elements/_hero.scss",
+		"/Users/ryanhayden/Dropbox/churchtheme/scss/elements/_main-layout.scss",
+		"/Users/ryanhayden/Dropbox/churchtheme/scss/_settings.scss",
+		"/Users/ryanhayden/Dropbox/churchtheme/scss/elements/_navigation.scss",
+		"/Users/ryanhayden/Desktop/sermons.css",
+		"/Users/ryanhayden/Dropbox/sitesforchurch/plugins/arrizalamin/portfolio/components/portfolio/default.htm",
+		"/Users/ryanhayden/Dropbox/sitesforchurch/plugins/sitesforchurch/sermonmanager/Plugin.php",
+		"/Users/ryanhayden/Dropbox/sitesforchurch/plugins/sitesforchurch/sermonmanager/components/sermonlist/default.htm",
+		"/Users/ryanhayden/Dropbox/sitesforchurch/plugins/sitesforchurch/welcome/Plugin.php",
+		"/Users/ryanhayden/Dropbox/sitesforchurch/plugins/sitesforchurch/ministries/models/ministry/fields.yaml",
+		"/Users/ryanhayden/Dropbox/sitesforchurch/plugins/sitesforchurch/ministries/Plugin.php",
+		"/Users/ryanhayden/Dropbox/sitesforchurch/plugins/sitesforchurch/ministries/updates/create_ministries_table.php",
+		"/Users/ryanhayden/Dropbox/sitesforchurch/plugins/sitesforchurch/ministries/models/ministry/columns.yaml",
+		"/Users/ryanhayden/Dropbox/sitesforchurch/plugins/sitesforchurch/ministries/models/Ministry.php",
+		"/Users/ryanhayden/Dropbox/sitesforchurch/plugins/sitesforchurch/sermonmanager/models/series/_series_artwork_help.htm",
+		"/Users/ryanhayden/Dropbox/sitesforchurch/themes/community/layouts/two-col-pages.htm",
+		"/Users/ryanhayden/Dropbox/sitesforchurch/plugins/sitesforchurch/sermonmanager/models/speaker/columns.yaml",
+		"/Users/ryanhayden/Dropbox/sitesforchurch/plugins/sitesforchurch/sermonmanager/models/sermon/fields.yaml",
+		"/Users/ryanhayden/Dropbox/sitesforchurch/plugins/sitesforchurch/sermonmanager/updates/create_sermons_table.php"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"sidebar",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"flex-align",
+			"Sitesforchurch\\",
+			"Sitesforchurch",
+			"sitesforchurch",
+			"Sitesforchurch",
+			"max",
+			"file",
+			"__SELF__",
+			".flexslider",
+			"flex",
+			"<?php",
+			"<?php echo $this->getThemePath(); ?>",
+			"seriesslistItem",
+			"sermonslist",
+			"blog",
+			"about",
+			"$mobile",
+			"@include media",
+			"@include omega();",
+			"@include span-columns",
+			"@include omega();",
+			"span-columns",
+			"@include justify-content(space-between);",
+			"@include justify-content(space-around);",
+			"$desktop",
+			"@include media",
+			"line-height: $base-line-height;",
+			"$base-font-color",
+			"Series",
+			"Sermon",
+			"Publications",
+			";",
+			"$",
+			":",
+			"$",
+			"1dark-gray",
+			"$",
+			"$medium-gray",
+			"$",
+			"@media screen and (max-width: $mobile)",
+			"$",
+			"$sans-serif",
+			"$serif",
+			"$",
+			":",
+			";",
+			":",
+			"$",
+			"@include",
+			"$",
+			"@include",
+			"@media screen",
+			"@include media($medium-screen)",
+			"@include",
+			"@include media($mobile)",
+			"@include justify-content(space-between);",
+			"@include justify-content(space-around);",
+			".contact-info",
+			".service-times",
+			".info-header",
+			".MobileNavigation__slideout",
+			"slide-out-navigation",
+			".MobileNavigation__sidebar    ",
+			"nav.MobileNavigation__sidebar ",
+			".MobileNavigation__sidenbar ",
+			"sidenbar",
+			".sidebar",
+			"mobile-navigation",
+			"mobile-nav-wrapper",
+			"sqlite",
+			"flex"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"align-items",
+			"SitesForChurch\\",
+			"builderList",
+			"",
+			"serieslist",
+			"sermons",
+			"ministries",
+			"small down",
+			"@include breakpoint",
+			"",
+			"@include grid-column",
+			"",
+			"grid-column",
+			"justify-content: space-between;",
+			"justify-content: space-around;",
+			"large",
+			"@include breakpoint",
+			"$secondary-color",
+			"speaker",
+			"Series",
+			"Watchmanpress",
+			"",
+			" =",
+			"dark-gray",
+			"",
+			"1medium-gray",
+			"",
+			"mqSmarthphone",
+			"",
+			"1sans-serif",
+			"1serif",
+			"",
+			" = ",
+			"",
+			" = ",
+			"",
+			"@media screen only and (min-width: $medium-screen)",
+			"@media only screen and (max-width: $mobile)",
+			"justify-content: space-between;",
+			"justify-content: space-around;",
+			".InfoHeader__info__ContactInfo",
+			".InfoHeader__info__ServiceTimes",
+			".InfoHeader",
+			"MobileNavigation__slideout",
+			".MobileNavigation__slideout ",
+			".MobileNavigation__sidebar ",
+			".MobileNavigation__sidebar  ",
+			".MobileNavigation__sidenbar  ",
+			"MobileNavigation"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 197.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 158.0
+	},
+	"pinned_build_system": "",
+	"project": "sitesforchurchsite.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"route",
+				"dev/community/modules/backend/routes.php"
+			],
+			[
+				"modules/system/console/pl",
+				"modules/system/console/PluginRefresh.php"
+			],
+			[
+				"foot",
+				"community/assets/sass/elements/_footer.scss"
+			],
+			[
+				"home",
+				"community/layouts/home.htm"
+			],
+			[
+				"foo",
+				"community/partials/footer.htm"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 265.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

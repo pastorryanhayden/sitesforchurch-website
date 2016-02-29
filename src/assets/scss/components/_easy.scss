@@ -1,0 +1,60 @@
+div.easy {
+    background: lighten($primary-color, 5%);
+}
+
+.easy__header {
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 20px;
+    margin-bottom: 30px;
+
+    h2 {
+        color: $white;
+        font-size: 50px;
+        line-height: 50px;
+        font-weight: bold;
+    }
+
+    p.getIt {
+        font-size: 24px;
+        font-style: italic;
+        margin-bottom: 0;
+    }
+    p {
+        font-size: 20px;
+    
+    em {
+        font-weight: bold;
+    }
+    }
+}//end of easy header styles
+
+.easy__content__image img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.easy__content__text {
+    margin-bottom: 30px;
+
+    @include breakpoint(small down){
+        text-align: center;
+        padding-left:30px;
+        padding-right: 30px;
+    }
+    h3 {
+        color: $white;
+        font-weight: bold;
+        font-size: 30px;
+    }
+
+    h3 span {
+        display: block;
+        font-weight: normal;
+        font-size: 24px;
+    }
+
+} //end easy conent text
+

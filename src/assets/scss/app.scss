@@ -2,11 +2,17 @@
 
 @import 'settings';
 @import 'foundation';
+
+@include foundation-flex-grid;
 @import 'motion-ui';
 @import 'components/nav';
+@import 'components/hero';
+@import 'components/easy';
+@import 'components/features';
+
 
 @include foundation-global-styles;
-@include foundation-grid;
+// @include foundation-grid;
 @include foundation-typography;
 @include foundation-button;
 @include foundation-forms;

@@ -1,0 +1,76 @@
+div.hero {
+    background-image: url(/assets/img/hero.jpg);
+    background-size: cover;
+}
+div.hero div.row {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.hero__header {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 40px;
+    text-align: center;
+@include breakpoint(small down){
+        order: 1;
+    }
+}
+
+.hero__header h1 {
+    color: $primary-color;
+    font-size: 80px; 
+    font-weight: bold;
+    margin-bottom: 0;
+    line-height: 80px;
+
+span {
+    color: $white;
+}
+}
+.hero__header h3 {
+    font-weight: normal;
+    font-size: 35px;
+    color: $black;
+}
+.hero__video {
+    @include breakpoint(small down){
+        order: 3;
+    }
+
+}
+.hero__video a {
+    display: block;
+    background: url(/assets/img/computervideo.png) no-repeat bottom center;
+    width: 483px;
+    height: 406px;
+    line-height: 406px;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+.hero__signup {
+    color: $white;
+    font-size: 28px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    @include breakpoint(medium down){
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    @include breakpoint(small down){
+        order: 2;
+        padding-bottom: 30px;
+    }
+
+    hr {
+        color: $white;
+        border-color: $white;
+        width: 80%;
+        border-width: 3px;
+    }
+}
