@@ -1,0 +1,78 @@
+.launchingSoon {
+background: $secondary-color;
+
+.wrapper {
+  background: url(/assets/img/rocket.png) no-repeat bottom right;
+min-height: 680px;
+  width: 100%;
+  padding: 50px;
+  @include breakpoint(small down){
+    min-height: 800px;
+  }
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: $white;
+  max-width: 800px;
+  @include breakpoint(small down){
+    font-size: 40px;
+  }
+}
+
+p {
+  font-size: 27px;
+  line-height: 39px;
+  max-width: 650px;
+  margin-bottom: 40px;
+  background: rgba(0,187,211,0.50);
+}
+
+form {
+  max-width: 600px;
+
+  .input-group-label {
+    background: $primary-color-dark;
+    color:$white;
+  }
+}
+}
+
+.testing {
+  background-color: #E1E1E1;
+
+  .wrapper {
+    min-height: 610px;
+    background: url(/assets/img/pig3.png) no-repeat bottom left;
+    padding: 40px;
+  }
+
+  h2 {
+    font-size: 48px;
+    text-align: right;
+    font-weight: bold;
+    color: $secondary-color;
+  }
+  h3 {
+    text-align: right;
+    font-weight: bold;
+    font-size: 35px;
+    color: $primary-color;
+  }
+
+  p {
+    max-width: 500px;
+    margin-top: 50px;
+    font-size: 25px;
+    text-align: right;
+    float:right;
+    background: rgba(225,225,225,0.50);
+  }
+  span {
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+
+  }
+}
