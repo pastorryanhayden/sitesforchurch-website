@@ -37,7 +37,7 @@ p {
 
 .pricing__Content {
   max-width: 600px;
-  @include breakpoint(small down) {
+  @include breakpoint(medium down) {
   padding-bottom: 300px;
   padding-left: 20px;
   }
@@ -45,11 +45,16 @@ p {
   h3 {
     font-weight: bold;
     font-size: 30px;
+    background: rgba(243,65,52,0.50);
   }
 
   h3 span {
     font-weight: normal;
     font-size: 24px;
+    background: rgba(243,65,52,0.50);
+  }
+  p {
+    background: rgba(243,65,52,0.50);
   }
 
   a.button.large.secondary {
