@@ -1,0 +1,120 @@
+.aboutUs {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    h1 {
+        color: $primary-color;
+        font-size: 60px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+}
+
+.aboutUs__ourTeam {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-top: 2px dashed $secondary-color;
+    margin-top: 30px;
+    padding-top: 20px;
+    h2 {
+        font-size: 50px;
+        font-weight: bold;
+        color: $secondary-color;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+.teamMember {
+    width: 40%;
+    text-align: center;
+    @include breakpoint(small down){
+        width: 100%;
+    }
+    h3 {
+        color: $primary-color-dark;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+}
+
+.aboutUs__ourTools {
+    text-align: center;
+    border-top: 2px dashed $secondary-color;
+    margin-top: 30px;
+    padding-top: 20px;
+
+    h2 {
+        font-size: 50px;
+        font-weight: bold;
+        color: $secondary-color;
+        text-align: center;
+        width: 100%;
+    }
+
+    h3 {
+    color: $primary-color-dark;
+    font-style: italic;
+    margin-bottom: 30px;
+    }
+
+    .tools {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+
+        a {margin-bottom: 20px;}
+    }
+
+}
+.aboutUs__ourMission {
+
+    border-top: 2px dashed $secondary-color;
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    h2 {
+        font-size: 50px;
+        font-weight: bold;
+        color: $secondary-color;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    p.missionStatement {
+        text-align: center;
+        font-weight: bold;
+        color: $primary-color-dark;
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .content {
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+
+    strong {
+        color: $primary-color;
+    }
+    }
+
+    h3 {
+        text-decoration: underline;
+        color: $primary-color-dark;
+        text-align: center;
+    }
+
+    h4 {
+        font-weight: bold;
+        color: $secondary-color;
+
+    }
+}
