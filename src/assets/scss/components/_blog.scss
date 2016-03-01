@@ -1,0 +1,37 @@
+.blogPost {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+
+
+.blogPost__header {
+    text-align: center;
+    padding-top: 40px;
+    border-top: 2px dashed $secondary-color;
+    border-bottom: 2px dashed $secondary-color;
+    padding-bottom: 40px;
+    margin-bottom: 30px;
+    h1 {
+        font-weight: bold;
+        text-align: center;
+    }
+}
+
+.blogPost__content {
+    h2, h3, h4, h5 {
+        text-align: center;
+    }
+
+    h2 {
+        color: $primary-color-dark;
+    }
+    h3 {
+        color: $secondary-color;
+    }
+    h4 {
+        color: $primary-color;
+    }
+
+}
