@@ -14,7 +14,7 @@ nav.main-nav {
 }
 
 nav img {
-    width: 261px;
+    width: 267px;
     height: 50px;
     display: block;
     margin-left: auto;
@@ -38,7 +38,7 @@ nav ul.main-menu {
     min-width:235px;
     border-bottom: 1px solid $off-white;
     @include breakpoint(large) {
-       margin-bottom: 0; 
+       margin-bottom: 0;
        border-bottom: none;
        flex-grow: 1;
        padding-bottom: 0;
@@ -68,7 +68,7 @@ nav ul.action-menu {
     }
 
     li {margin-bottom: 0;}
-    
+
     li a.button.success {
             margin-bottom: 0;
         }
@@ -76,6 +76,6 @@ nav ul.action-menu {
         color: $off-white;
         text-transform: uppercase;
 
-       
+
     }
 }
