@@ -235,6 +235,38 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "scss/components/_features.scss",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scss/_settings.scss",
+			"settings":
+			{
+				"buffer_size": 14137,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/ryanhayden/github/sitesforchurch/src/pages/index.html",
+			"settings":
+			{
+				"buffer_size": 5787,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/ryanhayden/github/sitesforchurch/src/partials/navigation.html",
+			"settings":
+			{
+				"buffer_size": 363,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -243,7 +275,7 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 354.0,
+		"height": 350.0,
 		"last_filter": "pack",
 		"selected_items":
 		[
@@ -292,7 +324,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 431.0
+		"width": 530.0
 	},
 	"console":
 	{
@@ -313,14 +345,24 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/ryanhayden/github/sitesforchurch/src"
+		"/Users/ryanhayden/github/sitesforchurch/src",
+		"/Users/ryanhayden/github/sitesforchurch/src/assets",
+		"/Users/ryanhayden/github/sitesforchurch/src/assets/scss",
+		"/Users/ryanhayden/github/sitesforchurch/src/assets/scss/components",
+		"/Users/ryanhayden/github/sitesforchurch/src/layouts",
+		"/Users/ryanhayden/github/sitesforchurch/src/pages",
+		"/Users/ryanhayden/github/sitesforchurch/src/partials"
 	],
 	"file_history":
 	[
-		"/Users/ryanhayden/github/sitesforchurch/src/layouts/default.html",
-		"/Users/ryanhayden/github/sitesforchurch/src/assets/scss/components/components-dir.scss",
-		"/Users/ryanhayden/github/sitesforchurch/src/assets/scss/components/_nav.scss",
 		"/Users/ryanhayden/github/sitesforchurch/src/assets/scss/app.scss",
+		"/Users/ryanhayden/github/sitesforchurch/src/assets/scss/components/_easy.scss",
+		"/Users/ryanhayden/github/sitesforchurch/src/assets/scss/components/_hero.scss",
+		"/Users/ryanhayden/github/sitesforchurch/src/assets/scss/components/_nav.scss",
+		"/Users/ryanhayden/github/sitesforchurch/src/partials/navigation.html",
+		"/Users/ryanhayden/github/sitesforchurch/src/layouts/default.html",
+		"/Users/ryanhayden/github/sitesforchurch/src/partials/footer.html",
+		"/Users/ryanhayden/github/sitesforchurch/src/assets/scss/components/components-dir.scss",
 		"/Volumes/panel.sitesforchurch/blessedhopemtvernon_org/plugins/sitesforchurch/welcome/controllers/welcome/index.htm",
 		"/Volumes/panel.sitesforchurch/blessedhopemtvernon_org/plugins/sitesforchurch/sermonmanager/models/sermon/fields.yaml",
 		"/Volumes/panel.sitesforchurch/blessedhopemtvernon_org/themes/blessedhopetheme/pages/sermonlist2.htm",
@@ -440,15 +482,11 @@
 		"/Users/ryanhayden/Dropbox/sitesforchurch/plugins/sitesforchurch/ministries/updates/create_ministries_table.php",
 		"/Users/ryanhayden/Dropbox/sitesforchurch/plugins/sitesforchurch/ministries/models/ministry/columns.yaml",
 		"/Users/ryanhayden/Dropbox/sitesforchurch/plugins/sitesforchurch/ministries/models/Ministry.php",
-		"/Users/ryanhayden/Dropbox/sitesforchurch/plugins/sitesforchurch/sermonmanager/models/series/_series_artwork_help.htm",
-		"/Users/ryanhayden/Dropbox/sitesforchurch/themes/community/layouts/two-col-pages.htm",
-		"/Users/ryanhayden/Dropbox/sitesforchurch/plugins/sitesforchurch/sermonmanager/models/speaker/columns.yaml",
-		"/Users/ryanhayden/Dropbox/sitesforchurch/plugins/sitesforchurch/sermonmanager/models/sermon/fields.yaml",
-		"/Users/ryanhayden/Dropbox/sitesforchurch/plugins/sitesforchurch/sermonmanager/updates/create_sermons_table.php"
+		"/Users/ryanhayden/Dropbox/sitesforchurch/plugins/sitesforchurch/sermonmanager/models/series/_series_artwork_help.htm"
 	],
 	"find":
 	{
-		"height": 31.0
+		"height": 74.0
 	},
 	"find_in_files":
 	{
@@ -464,6 +502,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			";\n",
 			"flex-align",
 			"Sitesforchurch\\",
 			"Sitesforchurch",
@@ -601,8 +640,142 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "scss/components/_features.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "scss/_settings.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14137,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1316,
+								1316
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/OneDark.tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 764.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "/Users/ryanhayden/github/sitesforchurch/src/pages/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5787,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5623,
+								5623
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/OneDark.tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2420.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/ryanhayden/github/sitesforchurch/src/partials/navigation.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 363,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								19,
+								19
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/OneDark.tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -623,6 +796,12 @@
 				0,
 				1,
 				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
 			]
 		],
 		"cols":
@@ -633,6 +812,7 @@
 		"rows":
 		[
 			0.0,
+			0.5,
 			1.0
 		]
 	},
@@ -699,7 +879,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},

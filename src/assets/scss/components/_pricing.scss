@@ -1,0 +1,59 @@
+.pricing {
+  background-color: $primary-color;
+  color: $white;
+}
+
+.pricing .row {
+  background: url(/assets/img/money-guy.png) no-repeat bottom right;
+  height: 560px;
+  @include breakpoint(small down) {
+    height: 950px;
+  }
+}
+
+.pricing__Header {
+  padding-top: 30px;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 30px;
+  @include breakpoint(small down) {
+  margin-bottom: 0;
+  }
+
+h2 {
+  font-size: 50px;
+  font-weight: bold;
+  line-heigh: 50px;
+  margin-bottom: 0;
+}
+
+p {
+  color: $off-white;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: bold;
+}
+}
+
+.pricing__Content {
+  max-width: 600px;
+  @include breakpoint(small down) {
+  padding-bottom: 300px;
+  padding-left: 20px;
+  }
+
+  h3 {
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  h3 span {
+    font-weight: normal;
+    font-size: 24px;
+  }
+
+  a.button.large.secondary {
+    font-weight: bold;
+    margin-top: 20px;
+  }
+}

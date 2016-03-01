@@ -1,0 +1,28 @@
+.footer {
+  background: $dark-gray;
+  color: $light-gray;
+  margin-bottom: 0;
+  border-bottom: 0;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+.footer__wrapper {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.footer__wrapper__contact {
+width: 300px;
+padding: 15px;
+border-right: 1px solid $light-gray;
+text-align: center;
+
+p {
+  margin-bottom: 0;
+  line-height: 18px;
+}
+
+}
