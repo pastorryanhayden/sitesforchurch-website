@@ -3,6 +3,7 @@
 @import 'settings';
 @import 'foundation';
 
+
 @include foundation-flex-grid;
 @import 'motion-ui';
 @import 'components/nav';
@@ -14,6 +15,7 @@
 @import 'components/launching';
 @import 'components/about';
 @import 'components/blog';
+@import 'components/signup2';
 
 
 @include foundation-global-styles;

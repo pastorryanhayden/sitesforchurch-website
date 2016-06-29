@@ -1,0 +1,302 @@
+$primary-color: #F34235
+$darker-primary: darken($primary-color, 20%)
+
+.signup-navigation
+    display: flex
+    flex-direction: column
+    margin-left: auto
+    margin-right: auto
+    background: #ffffff
+    max-width: 1000px
+    @include breakpoint(medium)
+        flex-direction: row
+
+    a
+        text-align: center
+        color: gray
+        text-transform: uppercase
+        width: 90%
+        margin-left: auto
+        margin-right: auto
+        @include breakpoint(medium)
+            flex-direction: row
+            width: 33%
+
+
+        span
+            text-transform: uppercase
+            font-size: 25px
+            font-weight: bold
+
+    a.active
+        border-bottom: 3px solid $darker-primary
+
+        span
+            color: $darker-primary
+
+.signup-page
+    min-height: 80vh
+    background-color: lighten($light-gray, 25%)
+    .wrapper
+        margin-left: auto
+        margin-right: auto
+        max-width: 1000px
+        padding-top: 50px
+        display: flex
+        flex-direction: column
+        @include breakpoint(large)
+            flex-direction: row
+        .viewer
+            text-align: center
+            align-self: center
+            @include breakpoint(large)
+                width: 490px
+                margin-left: auto
+                margin-right: auto
+
+
+        .form
+            padding: 30px
+            max-width: 80%
+            margin-left: auto
+            margin-right: auto
+            align-self: center
+            @include breakpoint(large)
+                width: 50%
+
+            h2
+                color: $primary-color
+                text-transform: uppercase
+                text-align: center
+                @include breakpoint(large)
+                    text-align: left
+
+            a.button
+                float: right
+
+            p
+                color: lighten(gray, 15%)
+                font-size: .9em
+                max-width: 85%
+
+        select
+            border-top: none
+            border-left: none
+            border-right: none
+            border-bottom: 2px solid gray
+            color: lighten(gray, 15%)
+            text-transform: uppercase
+
+.signup-page.step-2 
+    .form
+        max-width: 100%
+        @include breakpoint(large)
+                width: 100%
+        form
+            display: flex
+            flex-wrap: wrap
+            justify-content: space-between
+
+            input
+                border-top: none
+                border-left: none
+                border-right: none
+                border-bottom: 2px solid gray
+                color: lighten(gray, 15%)
+                text-transform: uppercase
+                @include breakpoint(medium)
+                    width: 48%
+            fieldset.url-box
+                @include breakpoint(medium)
+                    width: 48%
+                label
+                    color: lighten(gray, 15%)
+                    text-transform: uppercase
+                    font-size: 1em
+                    float: left
+                    margin-right: 20px
+                input
+                    background-color: white
+                    border: 1px solid $dark-gray
+        a.button
+            background-color: $secondary-color
+        h3
+            color: $secondary-color
+.signup-page.step-3 
+    .form
+        max-width: 100%
+        @include breakpoint(large)
+                width: 100%
+        form
+            div.service-row
+                display: flex
+                justify-content: space-between
+                input[type="checkbox"]
+                    width: 5%
+                input
+                    width: 45%
+                    border-top: none
+                    border-left: none
+                    border-right: none
+                    border-bottom: 2px solid gray
+                    color: lighten(gray, 15%)
+                    text-transform: uppercase
+
+
+        h3
+            color: $secondary-color
+        a.button
+            background-color: $secondary-color
+.signup-page.step-4
+    h3
+            color: $secondary-color
+    a.button
+            background-color: $secondary-color 
+    .form
+        max-width: 100%
+        @include breakpoint(large)
+                width: 100%
+        form
+            input
+                width: 100%
+                border-top: none
+                border-left: none
+                border-right: none
+                border-bottom: 2px solid gray
+                color: lighten(gray, 15%)
+                text-transform: uppercase
+
+
+.review-page.step-4.step-3.step-2
+    a.button
+            background-color: $primary-color
+
+    form
+        max-width: 100%
+        @include breakpoint(large)
+                width: 100%
+        div.service-row
+            display: flex
+            width: 100%
+            justify-content: space-between
+            input[type="checkbox"]
+                width: 5%
+            input
+                width: 45%
+                border-top: none
+                border-left: none
+                border-right: none
+                border-bottom: 2px solid gray
+                color: lighten(gray, 15%)
+                text-transform: uppercase  
+
+
+
+progress 
+    width: 100%
+    height: 12px
+    -webkit-appearance: none
+    appearance: none
+    border: 0
+
+progress::-webkit-progress-bar
+    width: 100%
+    height: 12px
+    -webkit-appearance: none
+    appearance: none
+    border: 0
+progress::-webkit-progress-value
+    background-color: $primary-color-dark
+
+.payment-page 
+    max-width: 1000px
+    margin-left: auto
+    margin-right: auto
+    display: flex
+    padding-bottom: 50px
+    padding-top: 30px
+    padding-left: 20px
+    padding-right: 20px
+    flex-wrap: wrap
+    @include breakpoint(medium) 
+        flex-wrap: nowrap
+
+
+    .payment-explanation
+        width: 100%
+        @include breakpoint(medium) 
+            width: 45%
+        h2
+            color: $primary-color
+            text-transform: uppercase
+            text-align: center
+            @include breakpoint(medium)
+                text-align: left
+        p
+            color: lighten(gray, 15%)
+            font-size: .9em
+            max-width: 85%
+    .payment-buttons
+        width: 100%
+        flex-wrap: wrap
+        @include breakpoint(medium) 
+            width: 50%
+            flex-wrap: nowrap
+            margin-top: 50px
+        display: flex
+        justify-content: space-between
+
+
+        a
+            display: block
+            padding: 15px
+            background-color: $primary-color-dark
+            text-align: center
+            color: $white
+            max-width: 200px
+
+.pricing-table 
+  border: solid 1px #DDDDDD
+  list-style-type: none
+  width: 100%
+  @include breakpoint(medium)
+    width: 50%
+  min-width: 200px
+  text-align: center
+
+  li 
+    border-bottom: dotted 1px #DDDDDD
+    font-size: 0.75rem
+    padding: 0.875rem 1.125rem
+    &:last-child 
+      border-bottom: 0
+
+    a.button
+        margin-left: auto
+        margin-right: auto
+    
+  
+
+  .title 
+    background-color: #333333
+    color: #EEEEEE
+    font-size: 0.875rem
+    border-bottom: 0
+  
+
+  .price 
+    background-color: #F6F6F6
+    color: #333333
+    font-size: 1.75rem
+    border-bottom: 0
+  
+
+  .description 
+    color: #777777
+    font-size: 0.625rem
+  
+
+  .button 
+    margin: 0
+  
+
